@@ -1,0 +1,12 @@
+Tax_number: Seller’s taxpayer ID.
+Invoice_number: Unique invoice identifier.
+Issue_date: Unix timestamp [2022-2025]
+Collection_type: payment type [CASH, CREDIT]
+Invoice_sub_type: Invoice subtype ["LOCAL", "EXPORT", "AREA_OF_DEVELOPMENT"]
+Invoice_category: invoice category ["INCOME", "GENERAL_SALES", "SPECIAL_SALES"]
+Invoice_discount_amount: discount amount.
+Invoice_tax_amount: Tax amount.
+Buyer_identification: Buyer’s taxpayer ID.
+Buyer_name: Buyer's name.
+Days_overdue: Days beyond due date that payment was late (0 if on time).
+Expected_payment_amount: Final expected amount.
